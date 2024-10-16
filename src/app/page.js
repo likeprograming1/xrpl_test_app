@@ -1,14 +1,14 @@
+import Login from "./components/Login";
+
 export default function Home() {
+
+
   return (
-    <main>
-      <section>
-        <h1>XRPL NFT AND FT Example</h1>
+    <main className="flex flex-col gap-[100px]">
+      <section className=" w-full text-center">
+        <h1 className=" text-[2rem]">XRPL NFT AND FT Example</h1>
       </section>
-      <section>
-        <div>
-          <h2>user1</h2>
-        </div>
-      </section>
+      <Login />
     </main>
   );
 }

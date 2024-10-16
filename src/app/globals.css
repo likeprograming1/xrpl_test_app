@@ -11,3 +11,16 @@ body {
   --background: #ffffff;
   --foreground: #171717;
 }
+
+button {
+  border: 1px solid black;
+  font-size: 1rem;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px 30px;
+  &:hover {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+  }
+}
